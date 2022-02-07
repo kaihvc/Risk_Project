@@ -1,0 +1,1 @@
+Allows us to git add the wrds_results & corr_dump directories without adding all the data inside them.
