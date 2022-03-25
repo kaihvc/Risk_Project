@@ -1,3 +1,8 @@
 # ignore anything in wrds_results folder
-wrds_results/*
+wrds_results/*.csv
+wrds_results/*.npy
+wrds_results/*.png
+wrds_results/.ipynb_checkpoints/*
 wrds_results/corr_dump/*
+wrds_results/ch3/*.csv
+wrds_results/ch1/*
