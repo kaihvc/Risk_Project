@@ -5,4 +5,7 @@ wrds_results/*.png
 wrds_results/.ipynb_checkpoints/*
 wrds_results/corr_dump/*
 wrds_results/ch3/*.csv
+wrds_results/ch3/*
 wrds_results/ch1/*
+wrds_results/ch2/*
+Final results/*
