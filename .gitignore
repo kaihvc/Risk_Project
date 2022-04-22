@@ -1,12 +1,23 @@
-# ignore anything in wrds_results folder
+# ignore any files in wrds_results directory or corr_dump
 wrds_results/*.csv
 wrds_results/*.npy
 wrds_results/*.png
 wrds_results/.ipynb_checkpoints/*
 wrds_results/corr_dump/*
+
+# keep directories, but ignore data files in chapter results
+wrds_results/ch1/*.csv
+wrds_results/ch1/*.npy
+wrds_results/ch1/Excel/*.xlsx
+
+wrds_results/ch2/*.csv
+wrds_results/ch2/*.npy
+wrds_results/ch2/Excel/*.xlsx
+
 wrds_results/ch3/*.csv
-wrds_results/ch3/*
-wrds_results/ch1/*
-wrds_results/ch2/*
+wrds_results/ch3/*.npy
+wrds_results/ch3/Excel/*.xlsx
+
+# ignore final results
 Final results/*
 Final results.zip
